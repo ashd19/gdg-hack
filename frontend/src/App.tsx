@@ -10,6 +10,7 @@ import Market from "./components/Market";
 import Vault from "./components/Vault";
 import AIGenerator from "./components/AIGenerator";
 import Test from "./components/Test";
+import BallotScanner from "./components/Admin/BallotScanner";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/vault" element={<Vault />} />
             <Route path="/studio" element={<AIGenerator />} />
             <Route path="/test" element={<Test />} />
+            <Route path="/admin" element={<BallotScanner />} />
           </Routes>
 
         </ThemeProvider>
